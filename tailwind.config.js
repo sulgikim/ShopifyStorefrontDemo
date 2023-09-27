@@ -10,8 +10,8 @@ module.exports = {
     "./components/**/*.{js,ts,jsx,tsx,mdx}",
   ],
   theme: {
-    extend: {
-      sans: ['Inter', ...defaultTheme.fontFamily.sans],
+    fontFamily: {
+      sans: ['"Inter var"', ...defaultTheme.fontFamily.sans],
     },
   },
   plugins: [
